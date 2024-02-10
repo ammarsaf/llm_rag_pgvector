@@ -6,4 +6,7 @@
 - OpenAI account: To call the LLM api.
 - Memory: 12GB and above. 
 
+## todo
+* [ ] Create `docker-compose.yml` to run both container at the same time easily.
+* [ ] Building multimodal RAG db on PGvector.
 
