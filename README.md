@@ -7,6 +7,8 @@
 - Memory: 12GB and above. 
 
 # Docker Setup
+
+## Manual build container
 1. docker pull pgvector image
 
 `docker pull pgvector/pgvector:pg16`
@@ -29,7 +31,14 @@
 - https://www.commandprompt.com/education/how-to-run-postgresql-and-pgadmin-using-docker/
 - https://bugbytes.io/posts/vector-databases-pgvector-and-langchain/
 
-## todo
-* [ ] Create `docker-compose.yml` to run both container at the same time easily.
-* [ ] Building multimodal RAG db on PGvector.
+## Compose
+1. `cd` into the project dir. Please ensure the `docker-compose.yml` is exist. 
+2. Run 
+```
+docker-compose up
+```
+
+# Todo
+* [x] Create `docker-compose.yml` to run both container at the same time easily.
+* [x] Building multimodal RAG db on PGvector.
 
